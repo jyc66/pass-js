@@ -6,6 +6,4 @@ import { Readable } from 'stream';
  * @param {Readable} readableStream
  * @returns {Promise<Buffer>}
  */
-export declare function streamToBuffer(
-  readableStream: Readable,
-): Promise<Buffer>;
+export declare function streamToBuffer(readableStream: Readable): Promise<Buffer>;

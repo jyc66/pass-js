@@ -8,8 +8,4 @@ import * as forge from 'node-forge';
  * @param {string} manifest - manifest to sign
  * @returns {Buffer} - signature for given manifest
  */
-export declare function signManifest(
-  certificate: forge.pki.Certificate,
-  key: forge.pki.PrivateKey,
-  manifest: string,
-): Buffer;
+export declare function signManifest(certificate: forge.pki.Certificate, key: forge.pki.PrivateKey, manifest: string): Buffer;
